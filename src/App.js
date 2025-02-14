@@ -1,11 +1,12 @@
-import './App.css';
+import './styles.css';
+import CourseBox from './course-box';
 import React, { useEffect, useState } from 'react';
-import CourseBox from './components/course-box';
-import { Button } from 'antd'
+import { IconButton } from '@mui/material';
+import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
+
 
 function App() {
   const [windowSize, setWindowSize] = useState(1000);
-
 
   useEffect(() => {
     function resizeWindow() {
@@ -15,73 +16,159 @@ function App() {
     window.addEventListener('resize', resizeWindow)
   })
   
+  return (
+    <div className="App">
 
-  if (windowSize > 1000){
-    return (
-      <div className="App">
-        <header className="App-Header">
-          Learning Central - the better version
-        </header>
-  
-        <br/>
-  
-          <>
-            <div style={{float: "left", width: "25%"}}>
-              <CourseBox/>
-            </div>
-            
-            <div style={{float: "left", width: "25%"}}>
-              <CourseBox/>
-            </div>
-
-            <div style={{float: "left", width: "25%"}}>
-              <CourseBox/>
-            </div>
-
-            <div style={{float: "left", width: "25%"}}>
-              <CourseBox/>
-            </div>
-          </>
-        
-          
-      </div>
-    );
-  }
-  else {
-    return (
-      <div className="App">
-        <header className="App-Header">
-          <div>
-            <Button type="primary"> Menu </Button>
-            Learning Central - the better version
-          </div>
-          
-        </header>
-  
       <br/>
-  
-          <>
-            <div style={{float: "left", width: "50%"}}>
-              <CourseBox/>
-            </div>
-            
-            <div style={{float: "right", width: "50%"}}>
-              <CourseBox/>
-            </div>
 
-            <div style={{float: "left", width: "50%"}}>
-              <CourseBox/>
-            </div>
-            
-            <div style={{float: "right", width: "50%"}}>
-              <CourseBox/>
-            </div>
-          </>
+      <header className="App-Header">
+        Courses
+      </header>
+
+      <br/>
+
+      <div className="App-Content">
+        <div className='Year-Title'>
+          Academic Year 24-25
+          <hr/>
+        </div>
+
+        <div style={{float: "left", width: "22%"}}>
+          <CourseBox 
+            title={"CM3202 Emerging Technologies"} 
+            lecturers={"Carolina Fuentes Toro, Nedjma Ousidhoum"}
+          />
+        </div>
         
-          
+        <div style={{float: "left", width: "22%"}}>
+          <CourseBox 
+            title={"CM3203 One Semester Individual Project - 40"}
+            lecturers={"Frank Langbein"}
+          />
+        </div>
+
+        <div style={{float: "left", width: "22%"}}>
+          <CourseBox
+            title={"CM3104 Large-Scale Databases"}
+            lecturers={"Alia Abdelmoty, Christopher Jones"}
+          />        
+        </div>
+
+        <div style={{float: "left", width: "22%"}}>
+          <CourseBox 
+            title={"CM3109 Combinatorial Optimisation"}
+            lecturers={"Richard Booth"}
+          />
+        </div>
+
+        <div style={{float: "left", width: "22%"}}>
+          <CourseBox
+            title={"CM3110 Security"}
+            lecturers={"George Theodorakopoulos"}
+          />
+        </div>
+
+        <div style={{float: "left", width: "22%"}}>
+          <CourseBox
+            title={"CM3117 Political Economies of Computing"}
+            lecturers={"Sandy Gould"}
+          />
+        </div>
       </div>
-    );
-  }
+        
+    </div>
+  );
+
+
+  // if (windowSize > 1000){
+  //   return (
+  //     <div className="App">
+  //       <header className="App-Header">
+  //         RedBook
+  //       </header>
+  
+  //       <br/>
+  //       <br/>
+
+  //       <div className="App-Content">
+  //         <div className='Year-Title'>
+  //           Academic Year 24-25
+  //           <hr/>
+  //         </div>
+
+  //         <div style={{float: "left", width: "21%"}}>
+  //           <CourseBox/>
+  //         </div>
+          
+  //         <div style={{float: "left", width: "21%"}}>
+  //           <CourseBox/>
+  //         </div>
+
+  //         <div style={{float: "left", width: "21%"}}>
+  //           <CourseBox/>
+  //         </div>
+
+  //         <div style={{float: "left", width: "21%"}}>
+  //           <CourseBox/>
+  //         </div>
+  //       </div>
+          
+  //     </div>
+  //   );
+  // }
+
+  // else {
+  //   return (
+  //     <div className="App">
+  //       <header className="App-Header">
+  //         RedBook
+  //         <div>
+  //             <IconButton style={{float: 'left', marginLeft: '15px'}}>
+  //               <MenuOutlinedIcon sx={{color: '#FFFFFF'}} />
+  //             </IconButton>
+  //         </div>
+  //       </header>
+  
+  //       <br/>
+  //       <br/>
+       
+  //       <div className="App-Content">
+
+  //         {CourseData.Years.map((item, index) => {
+  //           return (
+  //             <>
+  //               <div className='Year-Title'>
+  //                 {item.Title}
+  //                 <hr/>
+  //               </div>
+
+  //               <div style={{float: "left", width: "50%"}}>
+  //                 <CourseBox />
+  //               </div>
+
+  //             </>
+  //           )
+  //         })}
+
+
+  //         {/* <div style={{float: "right", width: "50%"}}>
+  //           <CourseBox/>
+  //         </div>
+
+  //         <div style={{float: "left", width: "50%"}}>
+  //           <CourseBox/>
+  //         </div>
+          
+  //         <div style={{float: "right", width: "50%"}}>
+  //           <CourseBox/>
+  //         </div> */}
+
+
+  //       </div>
+          
+  //     </div>
+  //   );
+  // }
 
 
   
