@@ -34,12 +34,12 @@ function App() {
         </div>
 
         <div style={{float: "left", width: "22%"}}>
-          <CourseBox 
+          <CourseBox
             title={"CM3202 Emerging Technologies"} 
             lecturers={"Carolina Fuentes Toro, Nedjma Ousidhoum"}
           />
         </div>
-        
+
         <div style={{float: "left", width: "22%"}}>
           <CourseBox 
             title={"CM3203 One Semester Individual Project - 40"}
@@ -74,103 +74,12 @@ function App() {
             lecturers={"Sandy Gould"}
           />
         </div>
+
+
       </div>
         
     </div>
   );
-
-
-  // if (windowSize > 1000){
-  //   return (
-  //     <div className="App">
-  //       <header className="App-Header">
-  //         RedBook
-  //       </header>
-  
-  //       <br/>
-  //       <br/>
-
-  //       <div className="App-Content">
-  //         <div className='Year-Title'>
-  //           Academic Year 24-25
-  //           <hr/>
-  //         </div>
-
-  //         <div style={{float: "left", width: "21%"}}>
-  //           <CourseBox/>
-  //         </div>
-          
-  //         <div style={{float: "left", width: "21%"}}>
-  //           <CourseBox/>
-  //         </div>
-
-  //         <div style={{float: "left", width: "21%"}}>
-  //           <CourseBox/>
-  //         </div>
-
-  //         <div style={{float: "left", width: "21%"}}>
-  //           <CourseBox/>
-  //         </div>
-  //       </div>
-          
-  //     </div>
-  //   );
-  // }
-
-  // else {
-  //   return (
-  //     <div className="App">
-  //       <header className="App-Header">
-  //         RedBook
-  //         <div>
-  //             <IconButton style={{float: 'left', marginLeft: '15px'}}>
-  //               <MenuOutlinedIcon sx={{color: '#FFFFFF'}} />
-  //             </IconButton>
-  //         </div>
-  //       </header>
-  
-  //       <br/>
-  //       <br/>
-       
-  //       <div className="App-Content">
-
-  //         {CourseData.Years.map((item, index) => {
-  //           return (
-  //             <>
-  //               <div className='Year-Title'>
-  //                 {item.Title}
-  //                 <hr/>
-  //               </div>
-
-  //               <div style={{float: "left", width: "50%"}}>
-  //                 <CourseBox />
-  //               </div>
-
-  //             </>
-  //           )
-  //         })}
-
-
-  //         {/* <div style={{float: "right", width: "50%"}}>
-  //           <CourseBox/>
-  //         </div>
-
-  //         <div style={{float: "left", width: "50%"}}>
-  //           <CourseBox/>
-  //         </div>
-          
-  //         <div style={{float: "right", width: "50%"}}>
-  //           <CourseBox/>
-  //         </div> */}
-
-
-  //       </div>
-          
-  //     </div>
-  //   );
-  // }
-
-
   
 }
 

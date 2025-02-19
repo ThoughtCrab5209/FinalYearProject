@@ -2,11 +2,21 @@ import "./course-box.css"
 
 export default function CourseBox(props) {
 
+    function handleClick() {
+        console.log("Clicked")
+    }
+
     const title = props.title
-    const lecturers = props.lecturers
+    var lecturers = props.lecturers
+
+    var lecturerCount = lecturers.split(",").length
+
+    if (lecturerCount > 3){
+        lecturers = "Multiple lecturers"
+    }
 
     return (
-        <div className="Box-Main">
+        <div onClick={handleClick} className="Box-Main">
             <div className="Box-Sub-Top">
                 {/* Course Title */}
                 <div className="Course-Title">
