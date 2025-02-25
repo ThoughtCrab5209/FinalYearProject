@@ -10,7 +10,7 @@ const Courses = () => {
                 Courses
             </header>
 
-            <div className="Content">
+            <div className="Course-Content">
                 <div className='Year-Title'>
                     Academic Year 24-25
                     <hr />
@@ -84,7 +84,7 @@ const Courses = () => {
             </div>
 
 
-            <div className="Content">
+            <div className="Course-Content">
                 <div className='Year-Title'>
                     Academic Year 23-24
                     <hr />
@@ -103,7 +103,7 @@ const Courses = () => {
             </div>
 
 
-            <div className="Content">
+            <div className="Course-Content">
                 <div className='Year-Title'>
                     Academic Year 22-23
                     <hr />
@@ -210,7 +210,7 @@ const Courses = () => {
             </div>
 
 
-            <div className="Content">
+            <div className="Course-Content">
                 <div className='Year-Title'>
                     Academic Year 21-22
                     <hr />
@@ -219,7 +219,7 @@ const Courses = () => {
                 <Card style={{ width: "30%", float: "left", marginLeft: "15px", marginBottom: "15px", textAlign: "left" }}>
                     <CardActionArea>
                         <CardContent style={{ backgroundColor: "#7D7D7D", height: "50px", fontSize: "16px" }}>
-                            Cm1205 Architecture and operating Systems
+                            CM1205 Architecture and operating Systems
                         </CardContent>
                         <CardContent style={{ color: "#FFFFFF", backgroundColor: "#A80000", height: "25px" }}>
                             Yipeng Qin

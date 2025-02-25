@@ -9,14 +9,9 @@
     text-align: center;
   }
   
-  .Course-Content {
-    margin-left: 15px;
+  .Profile-Content {
+    margin-left: 20vw;
+    margin-right: 15px;
   }
   
-  .Year-Title {
-    width: max-content;
-    text-align: left;
-    font-size: 24px;
-    margin-left: 15px;
-  }
   

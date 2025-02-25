@@ -4,8 +4,11 @@ const Layout = () => {
     return (
         <>
             <nav>
-                <Link to="/"> Home </Link>
+                <Link to="/home"> Home </Link>
+                <br/>
                 <Link to="/courses"> Courses </Link>
+                <br/>
+                <Link to="/profile"> Profile </Link>
             </nav>
 
             <Outlet/>
