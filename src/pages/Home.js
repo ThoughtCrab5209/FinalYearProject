@@ -1,13 +1,13 @@
-import "./Home.css"
+import "../stylesheets/Home.css"
 
 const Home = () => {
     return (
         <>
-            <header className="Page-Title">
+            <header className="Home-Page-Title">
                 Home
             </header>
 
-            <div className="Home-Content">
+            <div className="Home-Page-Content">
                Hello World! If you're seeing this, you've reached the base page of RedBook
             </div>
         </>

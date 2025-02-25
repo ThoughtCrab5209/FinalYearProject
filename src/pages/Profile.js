@@ -1,15 +1,15 @@
-import "./Profile.css"
+import "../stylesheets/Profile.css"
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 
 const Profile = () => {
     return (
         <>
-            <header className="Page-Title">
+            <header className="Profile-Page-Title">
                 Profile
             </header>
 
-            <div className="Profile-Content">
+            <div className="Profile-Page-Content">
                <Card style={{width: "60vw", paddingBottom: "10px"}}>
                     <CardContent>
                         <div style={{float: "left"}}> Full Name </div>

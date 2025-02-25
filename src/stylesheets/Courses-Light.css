@@ -1,4 +1,4 @@
-.Page-Title {
+.Course-Page-Title {
     border-bottom: 1px solid #000000;
     color: #000000;
     display: flex;
@@ -9,11 +9,12 @@
     text-align: center;
   }
   
-  .Course-Content {
+  .Course-Page-Content {
+    color: #000000;
     margin-left: 15px;
   }
   
-  .Year-Title {
+  .Course-Year-Title {
     width: max-content;
     text-align: left;
     font-size: 24px;
