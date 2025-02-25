@@ -1,24 +1,3 @@
 .App {
   text-align: center;
 }
-
-.App-Header {
-  min-height: 5vh;
-  display: flex;
-  flex-direction: column;
-  color: #000000;
-  border-bottom: 1px solid #000000;
-  text-align: center;
-  font-size: xx-large;
-}
-
-.App-Content {
-  margin-left: 15px;
-}
-
-.Year-Title {
-  width: max-content;
-  text-align: left;
-  font-size: 24px;
-  margin-left: inherit;
-}
