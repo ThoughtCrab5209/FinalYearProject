@@ -18,7 +18,7 @@ const Courses = () => {
                         <hr />
                     </div>
 
-                    <Card style={{ width: "30%", float: "left", marginLeft: "15px", marginBottom: "15px", textAlign: "left" }}>
+                    <Card style={{ width: "30%", float: "left", marginRight: "15px", marginBottom: "15px", textAlign: "left" }}>
                         <CardActionArea>
                             <CardContent style={{ backgroundColor: "#FFFFFF", height: "50px", fontSize: "16px" }}>
                                 CM3202 Emerging Technologies
@@ -29,7 +29,7 @@ const Courses = () => {
                         </CardActionArea>
                     </Card>
 
-                    <Card style={{ width: "30%", float: "left", marginLeft: "15px", marginBottom: "15px", textAlign: "left" }}>
+                    <Card style={{ width: "30%", float: "left", marginRight: "15px", marginBottom: "15px", textAlign: "left" }}>
                         <CardActionArea>
                             <CardContent style={{ backgroundColor: "#FFFFFF", height: "50px", fontSize: "16px" }}>
                                 CM3203 One Semester Individual Project - 40
@@ -40,7 +40,7 @@ const Courses = () => {
                         </CardActionArea>
                     </Card>
 
-                    <Card style={{ width: "30%", float: "left", marginLeft: "15px", marginBottom: "15px", textAlign: "left" }}>
+                    <Card style={{ width: "30%", float: "left", marginRight: "15px", marginBottom: "15px", textAlign: "left" }}>
                         <CardActionArea>
                             <CardContent style={{ backgroundColor: "#FFFFFF", height: "50px", fontSize: "16px" }}>
                                 CM3104 Large-Scale Databases
@@ -51,7 +51,7 @@ const Courses = () => {
                         </CardActionArea>
                     </Card>
 
-                    <Card style={{ width: "30%", float: "left", marginLeft: "15px", marginBottom: "15px", textAlign: "left" }}>
+                    <Card style={{ width: "30%", float: "left", marginRight: "15px", marginBottom: "15px", textAlign: "left" }}>
                         <CardActionArea>
                             <CardContent style={{ backgroundColor: "#FFFFFF", height: "50px", fontSize: "16px" }}>
                                 CM3109 Combinatorial Optimisation
@@ -62,7 +62,7 @@ const Courses = () => {
                         </CardActionArea>
                     </Card>
 
-                    <Card style={{ width: "30%", float: "left", marginLeft: "15px", marginBottom: "15px", textAlign: "left" }}>
+                    <Card style={{ width: "30%", float: "left", marginRight: "15px", marginBottom: "15px", textAlign: "left" }}>
                         <CardActionArea>
                             <CardContent style={{ backgroundColor: "#FFFFFF", height: "50px", fontSize: "16px" }}>
                                 CM3110 Security
@@ -73,7 +73,7 @@ const Courses = () => {
                         </CardActionArea>
                     </Card>
 
-                    <Card style={{ width: "30%", float: "left", marginLeft: "15px", marginBottom: "15px", textAlign: "left" }}>
+                    <Card style={{ width: "30%", float: "left", marginRight: "15px", marginBottom: "15px", textAlign: "left" }}>
                         <CardActionArea>
                             <CardContent style={{ backgroundColor: "#FFFFFF", height: "50px", fontSize: "16px" }}>
                                 CM3117 Political Economies of Computing
@@ -91,7 +91,7 @@ const Courses = () => {
                         <hr />
                     </div>
 
-                    <Card style={{ width: "30%", float: "left", marginLeft: "15px", marginBottom: "15px", textAlign: "left" }}>
+                    <Card style={{ width: "30%", float: "left", marginRight: "15px", marginBottom: "15px", textAlign: "left" }}>
                         <CardActionArea>
                             <CardContent style={{ backgroundColor: "#FFFFFF", height: "50px", fontSize: "16px" }}>
                                 CM2500 Placement
@@ -109,7 +109,7 @@ const Courses = () => {
                         <hr />
                     </div>
 
-                    <Card style={{ width: "30%", float: "left", marginLeft: "15px", marginBottom: "15px", textAlign: "left" }}>
+                    <Card style={{ width: "30%", float: "left", marginRight: "15px", marginBottom: "15px", textAlign: "left" }}>
                         <CardActionArea>
                             <CardContent style={{ backgroundColor: "#FFFFFF", height: "50px", fontSize: "16px" }}>
                                 CM2101 Human Computer Interaction
@@ -120,7 +120,7 @@ const Courses = () => {
                         </CardActionArea>
                     </Card>
 
-                    <Card style={{ width: "30%", float: "left", marginLeft: "15px", marginBottom: "15px", textAlign: "left" }}>
+                    <Card style={{ width: "30%", float: "left", marginRight: "15px", marginBottom: "15px", textAlign: "left" }}>
                         <CardActionArea>
                             <CardContent style={{ backgroundColor: "#FFFFFF", height: "50px", fontSize: "16px" }}>
                                 CM2207 Introduction to the Theory of Computation
@@ -131,7 +131,7 @@ const Courses = () => {
                         </CardActionArea>
                     </Card>
 
-                    <Card style={{ width: "30%", float: "left", marginLeft: "15px", marginBottom: "15px", textAlign: "left" }}>
+                    <Card style={{ width: "30%", float: "left", marginRight: "15px", marginBottom: "15px", textAlign: "left" }}>
                         <CardActionArea>
                             <CardContent style={{ backgroundColor: "#FFFFFF", height: "50px", fontSize: "16px" }}>
                                 CM2208 Scientific Computing
@@ -142,7 +142,7 @@ const Courses = () => {
                         </CardActionArea>
                     </Card>
 
-                    <Card style={{ width: "30%", float: "left", marginLeft: "15px", marginBottom: "15px", textAlign: "left" }}>
+                    <Card style={{ width: "30%", float: "left", marginRight: "15px", marginBottom: "15px", textAlign: "left" }}>
                         <CardActionArea>
                             <CardContent style={{ backgroundColor: "#FFFFFF", height: "50px", fontSize: "16px" }}>
                                 CM2305 Group Project
@@ -153,7 +153,7 @@ const Courses = () => {
                         </CardActionArea>
                     </Card>
 
-                    <Card style={{ width: "30%", float: "left", marginLeft: "15px", marginBottom: "15px", textAlign: "left" }}>
+                    <Card style={{ width: "30%", float: "left", marginRight: "15px", marginBottom: "15px", textAlign: "left" }}>
                         <CardActionArea>
                             <CardContent style={{ backgroundColor: "#FFFFFF", height: "50px", fontSize: "16px" }}>
                                 CM2306 Communication Networks
@@ -164,7 +164,7 @@ const Courses = () => {
                         </CardActionArea>
                     </Card>
 
-                    <Card style={{ width: "30%", float: "left", marginLeft: "15px", marginBottom: "15px", textAlign: "left" }}>
+                    <Card style={{ width: "30%", float: "left", marginRight: "15px", marginBottom: "15px", textAlign: "left" }}>
                         <CardActionArea>
                             <CardContent style={{ backgroundColor: "#FFFFFF", height: "50px", fontSize: "16px" }}>
                                 CM2307 Object Orientation, Algorithms and Data Structures
@@ -175,7 +175,7 @@ const Courses = () => {
                         </CardActionArea>
                     </Card>
 
-                    <Card style={{ width: "30%", float: "left", marginLeft: "15px", marginBottom: "15px", textAlign: "left" }}>
+                    <Card style={{ width: "30%", float: "left", marginRight: "15px", marginBottom: "15px", textAlign: "left" }}>
                         <CardActionArea>
                             <CardContent style={{ backgroundColor: "#FFFFFF", height: "50px", fontSize: "16px" }}>
                                 CM2102 Database Systems
@@ -186,7 +186,7 @@ const Courses = () => {
                         </CardActionArea>
                     </Card>
 
-                    <Card style={{ width: "30%", float: "left", marginLeft: "15px", marginBottom: "15px", textAlign: "left" }}>
+                    <Card style={{ width: "30%", float: "left", marginRight: "15px", marginBottom: "15px", textAlign: "left" }}>
                         <CardActionArea>
                             <CardContent style={{ backgroundColor: "#FFFFFF", height: "50px", fontSize: "16px" }}>
                                 CM2104 Computational Mathematics
@@ -197,7 +197,7 @@ const Courses = () => {
                         </CardActionArea>
                     </Card>
 
-                    <Card style={{ width: "30%", float: "left", marginLeft: "15px", marginBottom: "15px", textAlign: "left" }}>
+                    <Card style={{ width: "30%", float: "left", marginRight: "15px", marginBottom: "15px", textAlign: "left" }}>
                         <CardActionArea>
                             <CardContent style={{ backgroundColor: "#FFFFFF", height: "50px", fontSize: "16px" }}>
                                 CM2106 Enhancing your Employability
@@ -215,7 +215,7 @@ const Courses = () => {
                         <hr />
                     </div>
 
-                    <Card style={{ width: "30%", float: "left", marginLeft: "15px", marginBottom: "15px", textAlign: "left" }}>
+                    <Card style={{ width: "30%", float: "left", marginRight: "15px", marginBottom: "15px", textAlign: "left" }}>
                         <CardActionArea>
                             <CardContent style={{ backgroundColor: "#FFFFFF", height: "50px", fontSize: "16px" }}>
                                 CM1205 Architecture and operating Systems
@@ -226,7 +226,7 @@ const Courses = () => {
                         </CardActionArea>
                     </Card>
 
-                    <Card style={{ width: "30%", float: "left", marginLeft: "15px", marginBottom: "15px", textAlign: "left" }}>
+                    <Card style={{ width: "30%", float: "left", marginRight: "15px", marginBottom: "15px", textAlign: "left" }}>
                         <CardActionArea>
                             <CardContent style={{ backgroundColor: "#FFFFFF", height: "50px", fontSize: "16px" }}>
                                 CM1208 Maths for Computer Science
@@ -237,7 +237,7 @@ const Courses = () => {
                         </CardActionArea>
                     </Card>
 
-                    <Card style={{ width: "30%", float: "left", marginLeft: "15px", marginBottom: "15px", textAlign: "left" }}>
+                    <Card style={{ width: "30%", float: "left", marginRight: "15px", marginBottom: "15px", textAlign: "left" }}>
                         <CardActionArea>
                             <CardContent style={{ backgroundColor: "#FFFFFF", height: "50px", fontSize: "16px" }}>
                                 CM1210 Object Oriented Java Programming
@@ -248,7 +248,7 @@ const Courses = () => {
                         </CardActionArea>
                     </Card>
 
-                    <Card style={{ width: "30%", float: "left", marginLeft: "15px", marginBottom: "15px", textAlign: "left" }}>
+                    <Card style={{ width: "30%", float: "left", marginRight: "15px", marginBottom: "15px", textAlign: "left" }}>
                         <CardActionArea>
                             <CardContent style={{ backgroundColor: "#FFFFFF", height: "50px", fontSize: "16px" }}>
                                 CM1102 Web Applications
@@ -259,7 +259,7 @@ const Courses = () => {
                         </CardActionArea>
                     </Card>
 
-                    <Card style={{ width: "30%", float: "left", marginLeft: "15px", marginBottom: "15px", textAlign: "left" }}>
+                    <Card style={{ width: "30%", float: "left", marginRight: "15px", marginBottom: "15px", textAlign: "left" }}>
                         <CardActionArea>
                             <CardContent style={{ backgroundColor: "#FFFFFF", height: "50px", fontSize: "16px" }}>
                                 CM1301 Principles, Tools and Techniques for Secure Software Engineering
@@ -270,7 +270,7 @@ const Courses = () => {
                         </CardActionArea>
                     </Card>
 
-                    <Card style={{ width: "30%", float: "left", marginLeft: "15px", marginBottom: "15px", textAlign: "left" }}>
+                    <Card style={{ width: "30%", float: "left", marginRight: "15px", marginBottom: "15px", textAlign: "left" }}>
                         <CardActionArea>
                             <CardContent style={{ backgroundColor: "#FFFFFF", height: "50px", fontSize: "16px" }}>
                                 CM1101 Computational Thinking
@@ -281,7 +281,7 @@ const Courses = () => {
                         </CardActionArea>
                     </Card>
 
-                    <Card style={{ width: "30%", float: "left", marginLeft: "15px", marginBottom: "15px", textAlign: "left" }}>
+                    <Card style={{ width: "30%", float: "left", marginRight: "15px", marginBottom: "15px", textAlign: "left" }}>
                         <CardActionArea>
                             <CardContent style={{ backgroundColor: "#FFFFFF", height: "50px", fontSize: "16px" }}>
                                 CM1103 Problem Solving with Python
@@ -303,7 +303,7 @@ const Courses = () => {
                         <hr />
                     </div>
 
-                    <Card style={{ width: "30%", float: "left", marginLeft: "15px", marginBottom: "15px", textAlign: "left" }}>
+                    <Card style={{ width: "30%", float: "left", marginRight: "15px", marginBottom: "15px", textAlign: "left" }}>
                         <CardActionArea>
                             <CardContent style={{ backgroundColor: "#7D7D7D", height: "50px", fontSize: "16px" }}>
                                 CM3202 Emerging Technologies
@@ -314,7 +314,7 @@ const Courses = () => {
                         </CardActionArea>
                     </Card>
 
-                    <Card style={{ width: "30%", float: "left", marginLeft: "15px", marginBottom: "15px", textAlign: "left" }}>
+                    <Card style={{ width: "30%", float: "left", marginRight: "15px", marginBottom: "15px", textAlign: "left" }}>
                         <CardActionArea>
                             <CardContent style={{ backgroundColor: "#7D7D7D", height: "50px", fontSize: "16px" }}>
                                 CM3203 One Semester Individual Project - 40
@@ -325,7 +325,7 @@ const Courses = () => {
                         </CardActionArea>
                     </Card>
 
-                    <Card style={{ width: "30%", float: "left", marginLeft: "15px", marginBottom: "15px", textAlign: "left" }}>
+                    <Card style={{ width: "30%", float: "left", marginRight: "15px", marginBottom: "15px", textAlign: "left" }}>
                         <CardActionArea>
                             <CardContent style={{ backgroundColor: "#7D7D7D", height: "50px", fontSize: "16px" }}>
                                 CM3104 Large-Scale Databases
@@ -336,7 +336,7 @@ const Courses = () => {
                         </CardActionArea>
                     </Card>
 
-                    <Card style={{ width: "30%", float: "left", marginLeft: "15px", marginBottom: "15px", textAlign: "left" }}>
+                    <Card style={{ width: "30%", float: "left", marginRight: "15px", marginBottom: "15px", textAlign: "left" }}>
                         <CardActionArea>
                             <CardContent style={{ backgroundColor: "#7D7D7D", height: "50px", fontSize: "16px" }}>
                                 CM3109 Combinatorial Optimisation
@@ -347,7 +347,7 @@ const Courses = () => {
                         </CardActionArea>
                     </Card>
 
-                    <Card style={{ width: "30%", float: "left", marginLeft: "15px", marginBottom: "15px", textAlign: "left" }}>
+                    <Card style={{ width: "30%", float: "left", marginRight: "15px", marginBottom: "15px", textAlign: "left" }}>
                         <CardActionArea>
                             <CardContent style={{ backgroundColor: "#7D7D7D", height: "50px", fontSize: "16px" }}>
                                 CM3110 Security
@@ -358,7 +358,7 @@ const Courses = () => {
                         </CardActionArea>
                     </Card>
 
-                    <Card style={{ width: "30%", float: "left", marginLeft: "15px", marginBottom: "15px", textAlign: "left" }}>
+                    <Card style={{ width: "30%", float: "left", marginRight: "15px", marginBottom: "15px", textAlign: "left" }}>
                         <CardActionArea>
                             <CardContent style={{ backgroundColor: "#7D7D7D", height: "50px", fontSize: "16px" }}>
                                 CM3117 Political Economies of Computing
@@ -376,7 +376,7 @@ const Courses = () => {
                         <hr />
                     </div>
 
-                    <Card style={{ width: "30%", float: "left", marginLeft: "15px", marginBottom: "15px", textAlign: "left" }}>
+                    <Card style={{ width: "30%", float: "left", marginRight: "15px", marginBottom: "15px", textAlign: "left" }}>
                         <CardActionArea>
                             <CardContent style={{ backgroundColor: "#7D7D7D", height: "50px", fontSize: "16px" }}>
                                 CM2500 Placement
@@ -394,7 +394,7 @@ const Courses = () => {
                         <hr />
                     </div>
 
-                    <Card style={{ width: "30%", float: "left", marginLeft: "15px", marginBottom: "15px", textAlign: "left" }}>
+                    <Card style={{ width: "30%", float: "left", marginRight: "15px", marginBottom: "15px", textAlign: "left" }}>
                         <CardActionArea>
                             <CardContent style={{ backgroundColor: "#7D7D7D", height: "50px", fontSize: "16px" }}>
                                 CM2101 Human Computer Interaction
@@ -405,7 +405,7 @@ const Courses = () => {
                         </CardActionArea>
                     </Card>
 
-                    <Card style={{ width: "30%", float: "left", marginLeft: "15px", marginBottom: "15px", textAlign: "left" }}>
+                    <Card style={{ width: "30%", float: "left", marginRight: "15px", marginBottom: "15px", textAlign: "left" }}>
                         <CardActionArea>
                             <CardContent style={{ backgroundColor: "#7D7D7D", height: "50px", fontSize: "16px" }}>
                                 CM2207 Introduction to the Theory of Computation
@@ -416,7 +416,7 @@ const Courses = () => {
                         </CardActionArea>
                     </Card>
 
-                    <Card style={{ width: "30%", float: "left", marginLeft: "15px", marginBottom: "15px", textAlign: "left" }}>
+                    <Card style={{ width: "30%", float: "left", marginRight: "15px", marginBottom: "15px", textAlign: "left" }}>
                         <CardActionArea>
                             <CardContent style={{ backgroundColor: "#7D7D7D", height: "50px", fontSize: "16px" }}>
                                 CM2208 Scientific Computing
@@ -427,7 +427,7 @@ const Courses = () => {
                         </CardActionArea>
                     </Card>
 
-                    <Card style={{ width: "30%", float: "left", marginLeft: "15px", marginBottom: "15px", textAlign: "left" }}>
+                    <Card style={{ width: "30%", float: "left", marginRight: "15px", marginBottom: "15px", textAlign: "left" }}>
                         <CardActionArea>
                             <CardContent style={{ backgroundColor: "#7D7D7D", height: "50px", fontSize: "16px" }}>
                                 CM2305 Group Project
@@ -438,7 +438,7 @@ const Courses = () => {
                         </CardActionArea>
                     </Card>
 
-                    <Card style={{ width: "30%", float: "left", marginLeft: "15px", marginBottom: "15px", textAlign: "left" }}>
+                    <Card style={{ width: "30%", float: "left", marginRight: "15px", marginBottom: "15px", textAlign: "left" }}>
                         <CardActionArea>
                             <CardContent style={{ backgroundColor: "#7D7D7D", height: "50px", fontSize: "16px" }}>
                                 CM2306 Communication Networks
@@ -449,7 +449,7 @@ const Courses = () => {
                         </CardActionArea>
                     </Card>
 
-                    <Card style={{ width: "30%", float: "left", marginLeft: "15px", marginBottom: "15px", textAlign: "left" }}>
+                    <Card style={{ width: "30%", float: "left", marginRight: "15px", marginBottom: "15px", textAlign: "left" }}>
                         <CardActionArea>
                             <CardContent style={{ backgroundColor: "#7D7D7D", height: "50px", fontSize: "16px" }}>
                                 CM2307 Object Orientation, Algorithms and Data Structures
@@ -460,7 +460,7 @@ const Courses = () => {
                         </CardActionArea>
                     </Card>
 
-                    <Card style={{ width: "30%", float: "left", marginLeft: "15px", marginBottom: "15px", textAlign: "left" }}>
+                    <Card style={{ width: "30%", float: "left", marginRight: "15px", marginBottom: "15px", textAlign: "left" }}>
                         <CardActionArea>
                             <CardContent style={{ backgroundColor: "#7D7D7D", height: "50px", fontSize: "16px" }}>
                                 CM2102 Database Systems
@@ -471,7 +471,7 @@ const Courses = () => {
                         </CardActionArea>
                     </Card>
 
-                    <Card style={{ width: "30%", float: "left", marginLeft: "15px", marginBottom: "15px", textAlign: "left" }}>
+                    <Card style={{ width: "30%", float: "left", marginRight: "15px", marginBottom: "15px", textAlign: "left" }}>
                         <CardActionArea>
                             <CardContent style={{ backgroundColor: "#7D7D7D", height: "50px", fontSize: "16px" }}>
                                 CM2104 Computational Mathematics
@@ -482,7 +482,7 @@ const Courses = () => {
                         </CardActionArea>
                     </Card>
 
-                    <Card style={{ width: "30%", float: "left", marginLeft: "15px", marginBottom: "15px", textAlign: "left" }}>
+                    <Card style={{ width: "30%", float: "left", marginRight: "15px", marginBottom: "15px", textAlign: "left" }}>
                         <CardActionArea>
                             <CardContent style={{ backgroundColor: "#7D7D7D", height: "50px", fontSize: "16px" }}>
                                 CM2106 Enhancing your Employability
@@ -500,7 +500,7 @@ const Courses = () => {
                         <hr />
                     </div>
 
-                    <Card style={{ width: "30%", float: "left", marginLeft: "15px", marginBottom: "15px", textAlign: "left" }}>
+                    <Card style={{ width: "30%", float: "left", marginRight: "15px", marginBottom: "15px", textAlign: "left" }}>
                         <CardActionArea>
                             <CardContent style={{ backgroundColor: "#7D7D7D", height: "50px", fontSize: "16px" }}>
                                 CM1205 Architecture and operating Systems
@@ -511,7 +511,7 @@ const Courses = () => {
                         </CardActionArea>
                     </Card>
 
-                    <Card style={{ width: "30%", float: "left", marginLeft: "15px", marginBottom: "15px", textAlign: "left" }}>
+                    <Card style={{ width: "30%", float: "left", marginRight: "15px", marginBottom: "15px", textAlign: "left" }}>
                         <CardActionArea>
                             <CardContent style={{ backgroundColor: "#7D7D7D", height: "50px", fontSize: "16px" }}>
                                 CM1208 Maths for Computer Science
@@ -522,7 +522,7 @@ const Courses = () => {
                         </CardActionArea>
                     </Card>
 
-                    <Card style={{ width: "30%", float: "left", marginLeft: "15px", marginBottom: "15px", textAlign: "left" }}>
+                    <Card style={{ width: "30%", float: "left", marginRight: "15px", marginBottom: "15px", textAlign: "left" }}>
                         <CardActionArea>
                             <CardContent style={{ backgroundColor: "#7D7D7D", height: "50px", fontSize: "16px" }}>
                                 CM1210 Object Oriented Java Programming
@@ -533,7 +533,7 @@ const Courses = () => {
                         </CardActionArea>
                     </Card>
 
-                    <Card style={{ width: "30%", float: "left", marginLeft: "15px", marginBottom: "15px", textAlign: "left" }}>
+                    <Card style={{ width: "30%", float: "left", marginRight: "15px", marginBottom: "15px", textAlign: "left" }}>
                         <CardActionArea>
                             <CardContent style={{ backgroundColor: "#7D7D7D", height: "50px", fontSize: "16px" }}>
                                 CM1102 Web Applications
@@ -544,7 +544,7 @@ const Courses = () => {
                         </CardActionArea>
                     </Card>
 
-                    <Card style={{ width: "30%", float: "left", marginLeft: "15px", marginBottom: "15px", textAlign: "left" }}>
+                    <Card style={{ width: "30%", float: "left", marginRight: "15px", marginBottom: "15px", textAlign: "left" }}>
                         <CardActionArea>
                             <CardContent style={{ backgroundColor: "#7D7D7D", height: "50px", fontSize: "16px" }}>
                                 CM1301 Principles, Tools and Techniques for Secure Software Engineering
@@ -555,7 +555,7 @@ const Courses = () => {
                         </CardActionArea>
                     </Card>
 
-                    <Card style={{ width: "30%", float: "left", marginLeft: "15px", marginBottom: "15px", textAlign: "left" }}>
+                    <Card style={{ width: "30%", float: "left", marginRight: "15px", marginBottom: "15px", textAlign: "left" }}>
                         <CardActionArea>
                             <CardContent style={{ backgroundColor: "#7D7D7D", height: "50px", fontSize: "16px" }}>
                                 CM1101 Computational Thinking
@@ -566,7 +566,7 @@ const Courses = () => {
                         </CardActionArea>
                     </Card>
 
-                    <Card style={{ width: "30%", float: "left", marginLeft: "15px", marginBottom: "15px", textAlign: "left" }}>
+                    <Card style={{ width: "30%", float: "left", marginRight: "15px", marginBottom: "15px", textAlign: "left" }}>
                         <CardActionArea>
                             <CardContent style={{ backgroundColor: "#7D7D7D", height: "50px", fontSize: "16px" }}>
                                 CM1103 Problem Solving with Python
