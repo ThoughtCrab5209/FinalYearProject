@@ -1,8 +1,9 @@
 .Side-Menu-Button {
+  border: 2px solid #FFFFFF;
   color: #FFFFFF;
   display: block;
   padding: 5px;
-  padding-bottom: 0px;
+  border-radius: 5px;
   text-align: center;
   text-decoration: none;
   }

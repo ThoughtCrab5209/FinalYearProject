@@ -1,4 +1,4 @@
-import "../stylesheets/Home.css"
+import "../stylesheets/Home-Dark.css"
 
 const Home = () => {
     return (

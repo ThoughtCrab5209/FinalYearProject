@@ -1,4 +1,4 @@
-import "../stylesheets/Profile.css"
+import "../stylesheets/Profile-Dark.css"
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 
@@ -10,7 +10,7 @@ const Profile = () => {
             </header>
 
             <div>
-               <Card style={{paddingBottom: "10px"}}>
+               <Card style={{paddingBottom: "10px", margin: "0 20%", boxShadow: "2px 2px 5px #A80000"}}>
                     <CardContent>
                         <div style={{float: "left"}}> Full Name </div>
                         <div style={{float: "right"}}> Avery Calvin </div>
