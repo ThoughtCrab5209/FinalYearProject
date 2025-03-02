@@ -9,8 +9,8 @@ const Profile = () => {
                 Profile
             </header>
 
-            <div className="Profile-Page-Content">
-               <Card style={{width: "60vw", paddingBottom: "10px"}}>
+            <div>
+               <Card style={{paddingBottom: "10px"}}>
                     <CardContent>
                         <div style={{float: "left"}}> Full Name </div>
                         <div style={{float: "right"}}> Avery Calvin </div>

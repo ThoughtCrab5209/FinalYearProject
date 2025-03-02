@@ -1,9 +1,10 @@
-.Layout-Side-Menu {
-  color: "#FFFFFF";
-  display: "block";
-  padding: "5px";
-  text-align: "center";
-  text-decoration: "none";
+.Side-Menu-Button {
+  color: #FFFFFF;
+  display: block;
+  padding: 5px;
+  padding-bottom: 0px;
+  text-align: center;
+  text-decoration: none;
   }
   
   
