@@ -1,13 +1,13 @@
-import "../stylesheets/Profile-Dark.css"
+import "../stylesheets/Profile.css"
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 
 const Profile = () => {
     return (
         <>
-            <header className="Profile-Page-Title">
+            <header className="Profile-Page-Title Dark">
                 Profile
-            </header>
+            </header> 
 
             <div>
                <Card style={{paddingBottom: "10px", margin: "0 20%", boxShadow: "2px 2px 5px #A80000"}}>

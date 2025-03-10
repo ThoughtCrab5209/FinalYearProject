@@ -34,7 +34,7 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout/>}>
-          <Route path="home" element={<Home/>} />
+          <Route index element={<Home/>} />
           <Route path="courses" element={<Courses/>} />
           <Route path="courses/CM3202" element={<CM3202/>} />
           <Route path="courses/CM3203" element={<CM3203/>} />

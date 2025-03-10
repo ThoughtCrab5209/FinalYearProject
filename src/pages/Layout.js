@@ -6,7 +6,6 @@ const Layout = () => {
         <>
             <div style={{display: "flex", minHeight: "100vh", maxHeight: "100%"}}>
                 <nav style={{backgroundColor: "#A80000", padding: "20px"}}>
-                    <Link to="/home" index className="Side-Menu-Button"> Home </Link> <br/>
                     <Link to="/courses" className="Side-Menu-Button"> Courses </Link> <br/>
                     <Link to="/profile" className="Side-Menu-Button"> Profile </Link> <br/>
                 </nav>

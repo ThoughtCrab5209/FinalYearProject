@@ -1,4 +1,4 @@
-import "../../stylesheets/Courses-Dark.css"
+import "../../stylesheets/Courses.css"
 
 import * as React from 'react';
 import { styled } from '@mui/material/styles';
@@ -8,7 +8,6 @@ import CardContent from '@mui/material/CardContent';
 import Collapse from '@mui/material/Collapse';
 import IconButton from '@mui/material/IconButton';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import { Typography } from "@mui/material";
 
 // Collapsible card code obtained from: https://mui.com/material-ui/react-card/
 const ExpandMore = styled((props) => {
@@ -46,7 +45,7 @@ const CM3202 = () => {
 
     return (
         <>
-            <header className="Course-Page-Title">
+            <header className="Course-Page-Title Dark">
                 CM3202 - Emerging Technologies
             </header>
 

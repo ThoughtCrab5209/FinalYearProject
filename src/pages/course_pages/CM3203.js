@@ -1,4 +1,4 @@
-import "../../stylesheets/Courses-Dark.css"
+import "../../stylesheets/Courses.css"
 
 import * as React from 'react';
 import { styled } from '@mui/material/styles';
@@ -43,7 +43,7 @@ const CM3203 = () => {
 
     return (
         <>
-            <header className="Course-Page-Title">
+            <header className="Course-Page-Title Dark">
                 CM3203 - One Semester Individual Project - 40
             </header>
 
