@@ -14,7 +14,7 @@ import NoPage from "./pages/NoPage.js"
 export default function App() {
   const [windowSize, setWindowSize] = useState(1000);
   const [darkMode, setDarkMode] = useState(() => {
-    return localStorage.getItem("theme") === "dark";
+    return localStorage.getItem("theme");
   });
   
   useEffect(() => {
@@ -26,7 +26,7 @@ export default function App() {
   })
 
   useEffect(() => {
-    localStorage.setItem("theme", darkMode ? "dark" : "light");
+    localStorage.setItem("theme", "Dark");
   }, [darkMode]);
 
 

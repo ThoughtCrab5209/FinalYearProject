@@ -2,17 +2,23 @@ import "../stylesheets/Courses.css"
 import { CardActionArea } from '@mui/material';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
+import { useState } from "react";
 
 const Courses = () => {
+
+    const [darkTheme, setDarkTheme] = useState(() => {
+        return localStorage.getItem("theme");
+    });
+
     return (
         <>
-            <header className="Course-Page-Title Dark">
+            <header className={"Course-Page-Title " + darkTheme}>
                 Courses
             </header>
 
             <>
                 <div className="Course-Page-Content">
-                    <div className="Course-Year-Title Dark">
+                    <div className={"Course-Year-Title " + darkTheme}>
                         Academic Year 24-25
                         <hr />
                     </div>
@@ -22,7 +28,7 @@ const Courses = () => {
                             <CardContent className="Course-Module-Title Light">
                                 CM3202 Emerging Technologies
                             </CardContent>
-                            <CardContent className="Course-Module-Names Dark">
+                            <CardContent className={"Course-Module-Names " + darkTheme}>
                                 Multiple Lecturers
                             </CardContent>
                         </CardActionArea>
@@ -33,7 +39,7 @@ const Courses = () => {
                             <CardContent className="Course-Module-Title Light">
                                 CM3203 One Semester Individual Project - 40
                             </CardContent>
-                            <CardContent className="Course-Module-Names Dark">
+                            <CardContent className={"Course-Module-Names " + darkTheme}>
                                 Frank Langbein
                             </CardContent>
                         </CardActionArea>
@@ -44,7 +50,7 @@ const Courses = () => {
                             <CardContent className="Course-Module-Title Light">
                                 CM3104 Large-Scale Databases
                             </CardContent>
-                            <CardContent className="Course-Module-Names Dark">
+                            <CardContent className={"Course-Module-Names " + darkTheme}>
                                 Multiple Lecturers
                                 {/* Alia Abdelmoty, Christopher Jones */}
                             </CardContent>
@@ -56,7 +62,7 @@ const Courses = () => {
                             <CardContent className="Course-Module-Title Light">
                                 CM3109 Combinatorial Optimisation
                             </CardContent>
-                            <CardContent className="Course-Module-Names Dark">
+                            <CardContent className={"Course-Module-Names " + darkTheme}>
                                 Richard Booth
                             </CardContent>
                         </CardActionArea>
@@ -67,7 +73,7 @@ const Courses = () => {
                             <CardContent className="Course-Module-Title Light">
                                 CM3110 Security
                             </CardContent>
-                            <CardContent className="Course-Module-Names Dark">
+                            <CardContent className={"Course-Module-Names " + darkTheme}>
                                 George Theodorakopoulos
                             </CardContent>
                         </CardActionArea>
@@ -78,7 +84,7 @@ const Courses = () => {
                             <CardContent className="Course-Module-Title Light">
                                 CM3117 Political Economies of Computing
                             </CardContent>
-                            <CardContent className="Course-Module-Names Dark">
+                            <CardContent className={"Course-Module-Names " + darkTheme}>
                                 Sandy Gould
                             </CardContent>
                         </CardActionArea>
@@ -86,7 +92,7 @@ const Courses = () => {
                 </div>
 
                 <div className="Course-Page-Content">
-                    <div className="Course-Year-Title Dark">
+                    <div className={"Course-Year-Title " + darkTheme}>
                         Academic Year 23-24
                         <hr />
                     </div>
@@ -96,7 +102,7 @@ const Courses = () => {
                             <CardContent className="Course-Module-Title Light">
                                 CM2500 Placement
                             </CardContent>
-                            <CardContent className="Course-Module-Names Dark">
+                            <CardContent className={"Course-Module-Names " + darkTheme}>
                                 Multiple Lecturers
                                 {/* Martin Caminada, Joanna Emery, Leigh Hodge, James Osborne */}
                             </CardContent>
