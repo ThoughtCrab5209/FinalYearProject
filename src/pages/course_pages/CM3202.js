@@ -7,7 +7,11 @@ import CardHeader from '@mui/material/CardHeader';
 import CardContent from '@mui/material/CardContent';
 import Collapse from '@mui/material/Collapse';
 import IconButton from '@mui/material/IconButton';
+import ArticleIcon from '@mui/icons-material/Article';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import FolderZipIcon from '@mui/icons-material/FolderZip';
+import VideocamIcon from '@mui/icons-material/Videocam';
+import Grid from '@mui/material/Grid2';
 
 // Collapsible card code obtained from: https://mui.com/material-ui/react-card/
 const ExpandMore = styled((props) => {
@@ -37,10 +41,12 @@ const CM3202 = () => {
     const [folderOneExpanded, setFolderOneExpanded] = React.useState(false); // Module Staff
     const [folderTwoExpanded, setFolderTwoExpanded] = React.useState(false); // Assessments and Feedback
     const [folderThreeExpanded, setFolderThreeExpanded] = React.useState(false); // Week 1
+    const [folderFourExpanded, setFolderFourExpanded] = React.useState(false); // Week 2
 
     const handleFolderOneExpandClick = () => { setFolderOneExpanded(!folderOneExpanded); } // Module Staff
     const handleFolderTwoExpandClick = () => { setFolderTwoExpanded(!folderTwoExpanded); } // Assessments and Feedback
     const handleFolderThreeExpandClick = () => { setFolderThreeExpanded(!folderThreeExpanded); } // Week 1
+    const handleFolderFourExpandClick = () => { setFolderFourExpanded(!folderFourExpanded); } // Week 2
 
 
     return (
@@ -102,7 +108,155 @@ const CM3202 = () => {
                 />
                 <Collapse in={folderThreeExpanded} timeout="auto" unmountOnExit>
                     <CardContent>
-                        Content
+                        <Grid container spacing={0.5}>
+                            <Grid item size={{xs: 0.5}}>
+                                <ArticleIcon />
+                            </Grid>
+                            <Grid item size={{xs: 11}}>
+                                Spring Week 1 - Overview of emerging technologies
+                            </Grid>
+                        </Grid>
+
+                        <Grid container spacing={0.5}>
+                            <Grid item size={{xs: 0.5}}>
+                                <VideocamIcon />
+                            </Grid>
+                            <Grid item size={{xs: 11}}>
+                                Recording Week 1 - Introduction
+                            </Grid>
+                        </Grid>
+
+                    </CardContent>
+                </Collapse>
+            </Card>
+
+            <br/>
+
+            {/* Week 2 */}
+            <Card style={{margin: "0 5%"}}>
+                <CardHeader
+                    action={
+                        <ExpandMore expand={folderFourExpanded} onClick={handleFolderFourExpandClick}>
+                            <ExpandMoreIcon />
+                        </ExpandMore>
+                    }
+                    title="Week 2"
+                />
+                <Collapse in={folderFourExpanded} timeout="auto" unmountOnExit>
+                    <CardContent>
+
+                        <b> Recording W2-IoT </b>
+                        <Grid container spacing={0.5}>
+                            <Grid item size={{ xs: 0.5 }}>
+                                <VideocamIcon />
+                            </Grid>
+                            <Grid item size={{ xs: 11 }}>
+                                CM3202 - Online Teaching- W2.mp4
+                            </Grid>
+                        </Grid>
+
+                        <br/>
+
+                        <b> Reading Material </b>
+                        <Grid container spacing={0.5}>
+                            <Grid item size={{ xs: 0.5 }}>
+                                <ArticleIcon />
+                            </Grid>
+                            <Grid item size={{ xs: 11 }}>
+                                IoT-medical-things.pdf
+                            </Grid>
+                        </Grid>
+                        <Grid container spacing={0.5}>
+                            <Grid item size={{ xs: 0.5 }}>
+                                <ArticleIcon />
+                            </Grid>
+                            <Grid item size={{ xs: 11 }}>
+                                IoT-Agriculture.pdf
+                            </Grid>
+                        </Grid>
+
+                        <br/>
+
+                        <b> W2-IoT-Tutorial </b>
+                        <Grid container spacing={0.5}>
+                            <Grid item size={{ xs: 0.5 }}>
+                                <FolderZipIcon />
+                            </Grid>
+                            <Grid item size={{ xs: 11 }}>
+                                IoTDK_CANVASES.zip
+                            </Grid>
+                        </Grid>
+                        <Grid container spacing={0.5}>
+                            <Grid item size={{ xs: 0.5 }}>
+                                <FolderZipIcon />
+                            </Grid>
+                            <Grid item size={{ xs: 11 }}>
+                                IoTDK_CARDS.zip
+                            </Grid>
+                        </Grid>
+                        <Grid container spacing={0.5}>
+                            <Grid item size={{ xs: 0.5 }}>
+                                <ArticleIcon />
+                            </Grid>
+                            <Grid item size={{ xs: 11 }}>
+                                Older-Adults-Challenges.pdf
+                            </Grid>
+                        </Grid>
+                        <Grid container spacing={0.5}>
+                            <Grid item size={{ xs: 0.5 }}>
+                                <ArticleIcon />
+                            </Grid>
+                            <Grid item size={{ xs: 11 }}>
+                                Older-Adults-Challenges2.pdf
+                            </Grid>
+                        </Grid>
+                        <Grid container spacing={0.5}>
+                            <Grid item size={{ xs: 0.5 }}>
+                                <ArticleIcon />
+                            </Grid>
+                            <Grid item size={{ xs: 11 }}>
+                                CM3202-tutorial-IoT(W2-25).pdf
+                            </Grid>
+                        </Grid>
+                        <Grid container spacing={0.5}>
+                            <Grid item size={{ xs: 0.5 }}>
+                                <ArticleIcon />
+                            </Grid>
+                            <Grid item size={{ xs: 11 }}>
+                                IoTDK_0_INTRO.pdf
+                            </Grid>
+                        </Grid>
+                        <Grid container spacing={0.5}>
+                            <Grid item size={{ xs: 0.5 }}>
+                                <ArticleIcon />
+                            </Grid>
+                            <Grid item size={{ xs: 11 }}>
+                                Lab Tutorial.docx
+                            </Grid>
+                        </Grid>
+
+                        <br/>
+
+                        <Grid container spacing={0.5}>
+                            <Grid item size={{xs: 0.5}}>
+                                <ArticleIcon />
+                            </Grid>
+                            <Grid item size={{xs: 11}}>
+                                CM3202-Lecture2-IoT(W2-25)_session1.pdf
+                            </Grid>
+                        </Grid>
+
+                        <Grid container spacing={0.5}>
+                            <Grid item size={{xs: 0.5}}>
+                                <ArticleIcon />
+                            </Grid>
+                            <Grid item size={{xs: 11}}>
+                                CM3202-Lecture2-IoT-Industry_4_0(W2-25)_session2.pdf
+                            </Grid>
+                        </Grid>
+
+                        
+
                     </CardContent>
                 </Collapse>
             </Card>
