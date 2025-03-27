@@ -1,6 +1,7 @@
 import "../../stylesheets/Courses.css"
 
 import * as React from 'react';
+import { useState } from "react";
 import { styled } from '@mui/material/styles';
 import Card from '@mui/material/Card';
 import CardHeader from '@mui/material/CardHeader';
@@ -34,6 +35,10 @@ const ExpandMore = styled((props) => {
 
 const CM3203 = () => {
 
+    const [darkTheme, setDarkTheme] = useState(() => {
+        return localStorage.getItem("theme");
+    });
+
     const [folderOneExpanded, setFolderOneExpanded] = React.useState(false); // Module Staff
     const [folderTwoExpanded, setFolderTwoExpanded] = React.useState(false); // Assessments and Feedback
     
@@ -43,7 +48,7 @@ const CM3203 = () => {
 
     return (
         <>
-            <header className="Course-Page-Title Dark">
+            <header className={"Course-Page-Title " + (darkTheme === "Dark" ? "Light" : "Dark")}>
                 CM3203 - One Semester Individual Project - 40
             </header>
 

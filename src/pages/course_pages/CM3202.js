@@ -1,6 +1,7 @@
 import "../../stylesheets/Courses.css"
 
 import * as React from 'react';
+import { useState } from "react";
 import { styled } from '@mui/material/styles';
 import Card from '@mui/material/Card';
 import CardHeader from '@mui/material/CardHeader';
@@ -35,23 +36,28 @@ const ExpandMore = styled((props) => {
 }));
 
 
-
 const CM3202 = () => {
+
+    const [darkTheme, setDarkTheme] = useState(() => {
+        return localStorage.getItem("theme");
+    });
 
     const [folderOneExpanded, setFolderOneExpanded] = React.useState(false); // Module Staff
     const [folderTwoExpanded, setFolderTwoExpanded] = React.useState(false); // Assessments and Feedback
     const [folderThreeExpanded, setFolderThreeExpanded] = React.useState(false); // Week 1
     const [folderFourExpanded, setFolderFourExpanded] = React.useState(false); // Week 2
+    const [folderFiveExpanded, setFolderFiveExpanded] = React.useState(false); // Week 3
 
     const handleFolderOneExpandClick = () => { setFolderOneExpanded(!folderOneExpanded); } // Module Staff
     const handleFolderTwoExpandClick = () => { setFolderTwoExpanded(!folderTwoExpanded); } // Assessments and Feedback
     const handleFolderThreeExpandClick = () => { setFolderThreeExpanded(!folderThreeExpanded); } // Week 1
     const handleFolderFourExpandClick = () => { setFolderFourExpanded(!folderFourExpanded); } // Week 2
+    const handleFolderFiveExpandClick = () => { setFolderFiveExpanded(!folderFiveExpanded); } // Week 3
 
 
     return (
         <>
-            <header className="Course-Page-Title Dark">
+            <header className={"Course-Page-Title " + (darkTheme === "Dark" ? "Light" : "Dark")}>
                 CM3202 - Emerging Technologies
             </header>
 
@@ -104,7 +110,7 @@ const CM3202 = () => {
                             <ExpandMoreIcon />
                         </ExpandMore>
                     }
-                    title="Week 1"
+                    title="Week 1 - Introduction"
                 />
                 <Collapse in={folderThreeExpanded} timeout="auto" unmountOnExit>
                     <CardContent>
@@ -140,7 +146,7 @@ const CM3202 = () => {
                             <ExpandMoreIcon />
                         </ExpandMore>
                     }
-                    title="Week 2"
+                    title="Week 2 - IoT / Industry 4.0"
                 />
                 <Collapse in={folderFourExpanded} timeout="auto" unmountOnExit>
                     <CardContent>
@@ -256,6 +262,97 @@ const CM3202 = () => {
                         </Grid>
 
                         
+
+                    </CardContent>
+                </Collapse>
+            </Card>
+
+            <br/>
+
+            {/* Week 3 */}
+            <Card style={{margin: "0 5%"}}>
+                <CardHeader
+                    action={
+                        <ExpandMore expand={folderFiveExpanded} onClick={handleFolderFiveExpandClick}>
+                            <ExpandMoreIcon />
+                        </ExpandMore>
+                    }
+                    title="Week 3 - Robot Interaction and Autonomous Systems"
+                />
+                <Collapse in={folderFiveExpanded} timeout="auto" unmountOnExit>
+                    <CardContent>
+
+                        <b> Activity W3 </b>
+                        <Grid container spacing={0.5}>
+                            <Grid item size={{ xs: 0.5 }}>
+                                <ArticleIcon />
+                            </Grid>
+                            <Grid item size={{ xs: 11 }}>
+                               Activity-W3.pdf
+                            </Grid>
+                        </Grid>
+
+                        <br/>
+
+                        <b> Recording - W3 - HRI&AS </b>
+                        <Grid container spacing={0.5}>
+                            <Grid item size={{ xs: 0.5 }}>
+                                <ArticleIcon />
+                            </Grid>
+                            <Grid item size={{ xs: 11 }}>
+                                Week 3: Autonomous systems and HRI
+                            </Grid>
+                        </Grid>
+
+                        <br/>
+
+                        <b> Reading Material - W3 </b>
+                        <Grid container spacing={0.5}>
+                            <Grid item size={{ xs: 11 }}>
+                                No content
+                            </Grid>
+                        </Grid>
+
+                        <br/>
+
+                        <Grid container spacing={0.5}>
+                            <Grid item size={{ xs: 0.5 }}>
+                                <ArticleIcon />
+                            </Grid>
+                            <Grid item size={{ xs: 11 }}>
+                                CM3202-Lecture W3-HRI_AS.pdf
+                            </Grid>
+                        </Grid>
+
+                        <br/>
+
+                        <b> Tutorial - W3 - Co-Design Canvas </b>
+                        <Grid container spacing={0.5}>
+                            <Grid item size={{xs: 0.5}}>
+                                <ArticleIcon />
+                            </Grid>
+                            <Grid item size={{xs: 11}}>
+                                co-design_canvases_example_library_robot.pdf
+                            </Grid>
+                        </Grid>
+
+                        <Grid container spacing={0.5}>
+                            <Grid item size={{xs: 0.5}}>
+                                <ArticleIcon />
+                            </Grid>
+                            <Grid item size={{xs: 11}}>
+                                social_robot_co-design_canvases_A1.pdf
+                            </Grid>
+                        </Grid>
+
+                        <Grid container spacing={0.5}>
+                            <Grid item size={{xs: 0.5}}>
+                                <ArticleIcon />
+                            </Grid>
+                            <Grid item size={{xs: 11}}>
+                                CM3202- co-design-canvas_week3.pdf
+                            </Grid>
+                        </Grid>
 
                     </CardContent>
                 </Collapse>

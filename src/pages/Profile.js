@@ -1,11 +1,17 @@
 import "../stylesheets/Profile.css"
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
+import { useState } from "react";
 
 const Profile = () => {
+    
+    const [darkTheme, setDarkTheme] = useState(() => {
+        return localStorage.getItem("theme");
+    });
+
     return (
         <>
-            <header className="Profile-Page-Title Dark">
+            <header className={"Profile-Page-Title " + (darkTheme === "Dark" ? "Dark" : "Light")}>
                 Profile
             </header> 
 

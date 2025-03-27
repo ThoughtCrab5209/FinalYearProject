@@ -13,9 +13,6 @@ import NoPage from "./pages/NoPage.js"
 
 export default function App() {
   const [windowSize, setWindowSize] = useState(1000);
-  const [darkMode, setDarkMode] = useState(() => {
-    return localStorage.getItem("theme");
-  });
   
   useEffect(() => {
     function resizeWindow() {
@@ -24,10 +21,6 @@ export default function App() {
 
     window.addEventListener('resize', resizeWindow)
   })
-
-  useEffect(() => {
-    localStorage.setItem("theme", "Dark");
-  }, [darkMode]);
 
 
   return (
