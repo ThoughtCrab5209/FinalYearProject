@@ -57,7 +57,7 @@ const CM3202 = () => {
 
     return (
         <>
-            <header className={"Course-Page-Title " + (darkTheme === "Dark" ? "Light" : "Dark")}>
+            <header className={"Course-Page-Title " + (darkTheme === "Light" ? "Light" : "Dark")}>
                 CM3202 - Emerging Technologies
             </header>
 

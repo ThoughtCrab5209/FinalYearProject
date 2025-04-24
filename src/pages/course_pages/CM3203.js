@@ -48,7 +48,7 @@ const CM3203 = () => {
 
     return (
         <>
-            <header className={"Course-Page-Title " + (darkTheme === "Dark" ? "Light" : "Dark")}>
+            <header className={"Course-Page-Title " + (darkTheme === "Light" ? "Light" : "Dark")}>
                 CM3203 - One Semester Individual Project - 40
             </header>
 

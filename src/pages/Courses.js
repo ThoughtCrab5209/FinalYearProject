@@ -13,13 +13,13 @@ const Courses = () => {
 
     return (
         <>
-            <header className={"Course-Page-Title " + (darkTheme === "Dark" ? "Light" : "Dark")}>
+            <header className={"Course-Page-Title " + (darkTheme === "Light" ? "Light" : "Dark")}>
                 Courses
             </header>
 
             <>
                 <div className="Course-Page-Content">
-                    <div className={"Course-Year-Title " + (darkTheme === "Dark" ? "Light" : "Dark")}>
+                    <div className={"Course-Year-Title " + (darkTheme === "Light" ? "Light" : "Dark")}>
                         Academic Year 24-25
                         <hr />
                     </div>
@@ -29,8 +29,8 @@ const Courses = () => {
                             <Card style={{ boxShadow: "2px 2px 5px #A80000" }}>
                                 <CardActionArea href="/courses/CM3202">
                                     <CardContent
-                                        style={{ backgroundColor: (darkTheme === "Dark" ? "#FFFFFF" : "#7D7D7D") }}
-                                        className={"Course-Module-Title " + (darkTheme === "Dark" ? "Light" : "Dark")}>
+                                        style={{ backgroundColor: (darkTheme === "Light" ? "#FFFFFF" : "#7D7D7D") }}
+                                        className={"Course-Module-Title " + (darkTheme === "Light" ? "Light" : "Dark")}>
                                         CM3202 Emerging Technologies
                                     </CardContent>
                                     <CardContent className="Course-Module-Names Dark">
@@ -44,8 +44,8 @@ const Courses = () => {
                             <Card style={{ boxShadow: "2px 2px 5px #A80000" }}>
                                 <CardActionArea href="/courses/CM3203">
                                     <CardContent 
-                                        style={{ backgroundColor: (darkTheme === "Dark" ? "#FFFFFF" : "#7D7D7D") }}
-                                        className={"Course-Module-Title " + (darkTheme === "Dark" ? "Light" : "Dark")}>
+                                        style={{ backgroundColor: (darkTheme === "Light" ? "#FFFFFF" : "#7D7D7D") }}
+                                        className={"Course-Module-Title " + (darkTheme === "Light" ? "Light" : "Dark")}>
                                         CM3203 One Semester Individual Project - 40
                                     </CardContent>
                                     <CardContent className="Course-Module-Names Dark">
@@ -59,8 +59,8 @@ const Courses = () => {
                             <Card style={{ boxShadow: "2px 2px 5px #A80000" }}>
                                 <CardActionArea href="/courses/CM3104">
                                     <CardContent 
-                                        style={{ backgroundColor: (darkTheme === "Dark" ? "#FFFFFF" : "#7D7D7D") }}
-                                        className={"Course-Module-Title " + (darkTheme === "Dark" ? "Light" : "Dark")}>
+                                        style={{ backgroundColor: (darkTheme === "Light" ? "#FFFFFF" : "#7D7D7D") }}
+                                        className={"Course-Module-Title " + (darkTheme === "Light" ? "Light" : "Dark")}>
                                         CM3104 Large-Scale Databases
                                     </CardContent>
                                     <CardContent className="Course-Module-Names Dark">
@@ -79,8 +79,8 @@ const Courses = () => {
                             <Card style={{ boxShadow: "2px 2px 5px #A80000" }}>
                                 <CardActionArea href="/courses/CM3109">
                                     <CardContent 
-                                        style={{ backgroundColor: (darkTheme === "Dark" ? "#FFFFFF" : "#7D7D7D") }}
-                                        className={"Course-Module-Title " + (darkTheme === "Dark" ? "Light" : "Dark")}>
+                                        style={{ backgroundColor: (darkTheme === "Light" ? "#FFFFFF" : "#7D7D7D") }}
+                                        className={"Course-Module-Title " + (darkTheme === "Light" ? "Light" : "Dark")}>
                                         CM3109 Combinatorial Optimisation
                                     </CardContent>
                                     <CardContent className="Course-Module-Names Dark">
@@ -94,8 +94,8 @@ const Courses = () => {
                             <Card style={{ boxShadow: "2px 2px 5px #A80000" }}>
                                 <CardActionArea href="/courses/CM3110">
                                     <CardContent 
-                                        style={{ backgroundColor: (darkTheme === "Dark" ? "#FFFFFF" : "#7D7D7D") }}
-                                        className={"Course-Module-Title " + (darkTheme === "Dark" ? "Light" : "Dark")}>
+                                        style={{ backgroundColor: (darkTheme === "Light" ? "#FFFFFF" : "#7D7D7D") }}
+                                        className={"Course-Module-Title " + (darkTheme === "Light" ? "Light" : "Dark")}>
                                         CM3110 Security
                                     </CardContent>
                                     <CardContent className="Course-Module-Names Dark">
@@ -109,8 +109,8 @@ const Courses = () => {
                             <Card style={{ boxShadow: "2px 2px 5px #A80000" }}>
                                 <CardActionArea href="/courses/CM3117">
                                     <CardContent 
-                                        style={{ backgroundColor: (darkTheme === "Dark" ? "#FFFFFF" : "#7D7D7D") }}
-                                        className={"Course-Module-Title " + (darkTheme === "Dark" ? "Light" : "Dark")}>
+                                        style={{ backgroundColor: (darkTheme === "Light" ? "#FFFFFF" : "#7D7D7D") }}
+                                        className={"Course-Module-Title " + (darkTheme === "Light" ? "Light" : "Dark")}>
                                         CM3117 Political Economies of Computing
                                     </CardContent>
                                     <CardContent className="Course-Module-Names Dark">
@@ -125,7 +125,7 @@ const Courses = () => {
                 <br /><br />
 
                 <div className="Course-Page-Content">
-                    <div className={"Course-Year-Title " + (darkTheme === "Dark" ? "Light" : "Dark")}>
+                    <div className={"Course-Year-Title " + (darkTheme === "Light" ? "Light" : "Dark")}>
                         Academic Year 23-24
                         <hr />
                     </div>
@@ -136,8 +136,8 @@ const Courses = () => {
                                 {/* Courses that are locked should not redirect anywhere */}
                                 <CardActionArea>
                                     <CardContent 
-                                        style={{ backgroundColor: (darkTheme === "Dark" ? "#FFFFFF" : "#7D7D7D") }}
-                                        className={"Course-Module-Title " + (darkTheme === "Dark" ? "Light" : "Dark")}>
+                                        style={{ backgroundColor: (darkTheme === "Light" ? "#FFFFFF" : "#7D7D7D") }}
+                                        className={"Course-Module-Title " + (darkTheme === "Light" ? "Light" : "Dark")}>
                                         CM2500 Placement
                                     </CardContent>
                                     <CardContent className="Course-Module-Names Dark">
