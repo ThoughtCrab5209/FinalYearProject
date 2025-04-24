@@ -16,7 +16,13 @@ const Profile = () => {
             </header> 
 
             <div>
-               <Card style={{paddingBottom: "10px", margin: "0 20%", boxShadow: "2px 2px 5px #A80000"}}>
+               <Card style={{
+                    paddingBottom: "10px",
+                    margin: "0 20%",
+                    boxShadow: "2px 2px 5px #A80000",
+                    backgroundColor: (darkTheme === "Light" ? "#FFFFFF" : "#7D7D7D"), 
+                    color: (darkTheme === "Light" ? "#000000" : "#FFFFFF")
+                }}>
                     <CardContent>
                         <div style={{float: "left"}}> Full Name </div>
                         <div style={{float: "right"}}> Avery Calvin </div>
