@@ -53,7 +53,11 @@ const CM3203 = () => {
             </header>
 
             {/* Module Staff */}
-            <Card style={{margin: "0 5%"}}>
+            <Card style={{
+                margin: "0 5%", 
+                backgroundColor: (darkTheme === "Light" ? "#FFFFFF" : "#7D7D7D"), 
+                color: (darkTheme === "Light" ? "#000000" : "#FFFFFF")
+            }}>
                 <CardHeader
                     action={
                         <ExpandMore expand={folderOneExpanded} onClick={handleFolderOneExpandClick}>
@@ -74,7 +78,11 @@ const CM3203 = () => {
             <br/>
 
             {/* Assessments and Feedback */}
-            <Card style={{margin: "0 5%"}}>
+            <Card style={{
+                margin: "0 5%", 
+                backgroundColor: (darkTheme === "Light" ? "#FFFFFF" : "#7D7D7D"), 
+                color: (darkTheme === "Light" ? "#000000" : "#FFFFFF")
+            }}>
                 <CardHeader
                     action={
                         <ExpandMore expand={folderTwoExpanded} onClick={handleFolderTwoExpandClick}>

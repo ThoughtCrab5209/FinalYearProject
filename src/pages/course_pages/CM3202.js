@@ -62,7 +62,11 @@ const CM3202 = () => {
             </header>
 
             {/* Module Staff */}
-            <Card style={{margin: "0 5%"}}>
+            <Card style={{
+                margin: "0 5%", 
+                backgroundColor: (darkTheme === "Light" ? "#FFFFFF" : "#7D7D7D"), 
+                color: (darkTheme === "Light" ? "#000000" : "#FFFFFF")
+            }}>
                 <CardHeader
                     action={
                         <ExpandMore expand={folderOneExpanded} onClick={handleFolderOneExpandClick}>
@@ -84,7 +88,11 @@ const CM3202 = () => {
             <br/>
 
             {/* Assessments and Feedback */}
-            <Card style={{margin: "0 5%"}}>
+            <Card style={{
+                margin: "0 5%", 
+                backgroundColor: (darkTheme === "Light" ? "#FFFFFF" : "#7D7D7D"), 
+                color: (darkTheme === "Light" ? "#000000" : "#FFFFFF")
+            }}>
                 <CardHeader
                     action={
                         <ExpandMore expand={folderTwoExpanded} onClick={handleFolderTwoExpandClick}>
@@ -103,7 +111,11 @@ const CM3202 = () => {
             <br/>
 
             {/* Week 1 */}
-            <Card style={{margin: "0 5%"}}>
+            <Card style={{
+                margin: "0 5%", 
+                backgroundColor: (darkTheme === "Light" ? "#FFFFFF" : "#7D7D7D"), 
+                color: (darkTheme === "Light" ? "#000000" : "#FFFFFF")
+            }}>
                 <CardHeader
                     action={
                         <ExpandMore expand={folderThreeExpanded} onClick={handleFolderThreeExpandClick}>
@@ -139,7 +151,11 @@ const CM3202 = () => {
             <br/>
 
             {/* Week 2 */}
-            <Card style={{margin: "0 5%"}}>
+            <Card style={{
+                margin: "0 5%", 
+                backgroundColor: (darkTheme === "Light" ? "#FFFFFF" : "#7D7D7D"), 
+                color: (darkTheme === "Light" ? "#000000" : "#FFFFFF")
+            }}>
                 <CardHeader
                     action={
                         <ExpandMore expand={folderFourExpanded} onClick={handleFolderFourExpandClick}>
@@ -270,7 +286,11 @@ const CM3202 = () => {
             <br/>
 
             {/* Week 3 */}
-            <Card style={{margin: "0 5%"}}>
+            <Card style={{
+                margin: "0 5%", 
+                backgroundColor: (darkTheme === "Light" ? "#FFFFFF" : "#7D7D7D"), 
+                color: (darkTheme === "Light" ? "#000000" : "#FFFFFF")
+            }}>
                 <CardHeader
                     action={
                         <ExpandMore expand={folderFiveExpanded} onClick={handleFolderFiveExpandClick}>
