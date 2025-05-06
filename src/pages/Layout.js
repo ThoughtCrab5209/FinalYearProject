@@ -22,7 +22,7 @@ const Layout = () => {
     return (
         <>
             <div style={{display: "flex", minHeight: "100vh", maxHeight: "100%"}}>
-                <nav style={{backgroundColor: "#A80000", padding: "20px"}}>
+                <nav style={{backgroundColor: "#A80000", padding: "20px", boxShadow: "2px 0px 8px #D4D4D4"}}>
                     <Link to="/courses" className="Side-Menu-Button"> Courses </Link> <br/>
                     <Link to="/profile" className="Side-Menu-Button"> Profile </Link> <br/>
 

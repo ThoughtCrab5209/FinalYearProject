@@ -277,8 +277,6 @@ const CM3202 = () => {
                             </Grid>
                         </Grid>
 
-                        
-
                     </CardContent>
                 </Collapse>
             </Card>
